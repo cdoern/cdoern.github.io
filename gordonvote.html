@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAhQ2wAAAAAAA8+XgCoyqAAZYFfAPm1ZgAPMUQAyX0lAGF8WwCzcSIATlRxACNDaABAXD8AFR0TAKDCmQAmLlIABUCdAMV7JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwcHBwcBAQEBAQEHBwcHBwUHBwcHEAsLCwsLAQcHBwcFBQcHBxAQCwsLCwsHBwcHBQUFBwEQEBALCwsLBwcHBwUFBQUQEBAQEAsLCwcHBwcFBQUFEBAQEBAACwsHBwcHBQUFBRAQEBAQCwsLCwcHBwUFBQUBCgoKDw8PDwcHBwcFBQUIAQUFAgEHBwcHBwcHBQUFDAQFBQEGBwcBCAgIBwUFBQUFAQUFBQcJCAMMBwcFBQUFDAwMDQUFEQgMAQcHBQUFAwgIDAMFAQEBBwcHBwUFBQUMDggFBQwDCAEHBwcFBQUFDAgFBQUFBQUFBwcHBQUFBQUFBQUFBQUFBQUHBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link type="text/css" rel="stylesheet" href="//pubnub.github.io/eon/v/eon/0.0.9/eon.css" />
+</head>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+/* All Screen sizes */
+@media screen{
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color:#7EC0EE;
+  margin: 0;
+  padding: 0;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+#site_title{
+  width:200px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+#button{
+ text-align: center;
+}
+#content h1{
+  margin-bottom: 20px;
+}
+#content h2{
+  margin: 15px 0;
+}
+#content h3{
+  margin: 10px 0;
+}
+#content{
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#content p{
+  margin: 7.5px 0;
+}
+#content ul{
+  margin: 0 20px;
+}
+#footer{
+  text-align: center;
+  color:white;
+  margin-bottom: 20px;
+}
+#footer a{
+  color:white;
+}
+#container{
+  margin: 0 auto;
+}
+#livecamera{
+  border:0;
+}
+}
+/* Screen 1000px and larger */
+@media (min-width: 1000px){
+#container{
+  width:1000px;
+}
+#livecamera{
+  width:960px;
+  height: 540px;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+#container{
+  width:800px;
+}
+#livecamera{
+  width:760px;
+  height: 428px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+#container{
+  width:600px;
+}
+#livecamera{
+  width:560px;
+  height: 315px;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+#container{
+  width:400px;
+}
+#livecamera{
+  width:360px;
+  height: 203px;
+}
+}
+@media screen and (max-width: 400px){
+#container{
+  width:100%;
+}
+#livecamera{
+  width:100%;
+}
+}
+</style>
+</head>
+<body>
+<h1 id="site_title">THE GARDEN <br> <a href="index.html" id="button"><button>Home</button></a></h1>
+<div id="container">
+<div id="content">
+    <h1 id="content_title">Would you like to water The Garden Today?</h1>
+   <p> Based on the information below (video of Marty and Gendo and soil moisture) would you like to water Marty and Gendo today? You can also check the trend of decisions on <a href ="info.php">this</a> page </p> <br>
+<form action="registeryes.php">
+ <input type="submit" value="Yes">
+</form>
+<br>
+<form action="registerno.php">
+ <input type="submit" value="No">
+</form>
+
+
+  </div>
+  <div id="content">
+    <h1 id="content_title">Live Camera</h1>
+    <iframe id="livecamera" type="text/html" src="https://video.nest.com/embedded/live/aUfsHT3kQ3?autoplay=1" allowfullscreen=""></iframe>
+  </div>
+  <div id="content">
+    <h1 id="content_title">Information</h1>
+    <p> Marty is a Zebra Plant, they require lots of water to keep the soil moist, not wet!</p>
+    <p> Gendo is a Nerve Plant, they also requires a lot of indirect bright light and is usually watered every other day. (or every two days if the moisture is too high!) Nerve Plants like humid environments and moist soil! </p>
+  </div>
+<div id="content">
+<h1 id="content title">Soil Moisture for Marty</h1>
+<p> <strong> Reading the Soil Moisture: </strong> </p>
+<p> Above 55%: soil moisture is high </p>
+<p> Below 55%: soil moisture is low </p>
+<body>
+
+
+
+<div id="chart">
+  <div id="temp"></div>
+</div>
+
+<script src="//cdn.pubnub.com/pubnub-3.10.2.js"></script>
+<script src="//pubnub.github.io/eon/v/eon/0.0.9/eon.js"></script>
+<script>
+var pubnub = PUBNUB.init({
+  publish_key: 'pub-c-65622d76-85a2-4aae-8cd8-340ed4ceb9d6',
+  subscribe_key: 'sub-c-66eaab26-45ad-11e8-9e3f-0693e4e720a3',
+  ssl: true
+});
+var channel = 'soil';
+eon.chart({
+  channel: channel,
+  generate: {
+    bindto: '#temp',
+    data: {
+      type: 'line',
+      colors: {
+        temperature: '#663399'
+      }
+    },
+    axis: {
+     x: { 
+type: 'timeseries', 
+tick: { 
+format: '%H:%M:%S', fit: true 
+},
+        label: {
+          text: 'Time',
+        }
+      },
+      y: {
+        label: {
+          text: 'percent',
+          position: 'outer-middle'
+        },
+        tick: {
+          format: function (d) {
+            var df = Number( d3.format('.2f')(d) );
+            return df;
+          }
+        }
+      }
+  }
+},
+//history:true,
+pubnub: pubnub,
+limit: 30,
+transform: function(m) {
+  return { eon: {
+      soil: m.soil 
+    }}
+  }
+});
+</script>
+<link href="css/style.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+
+<script type='text/javascript'>
+var fqdn = "A2NWVPWEB126.shr.prod.iad2.secureserver.net";
+redirectToLogin = function() {
+	window.location.href = "https://" + fqdn + ":8443";
+}
+</script>	
+
+</div>
+</body>
+</html>
