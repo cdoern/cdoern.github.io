@@ -1,10 +1,181 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="icon" type="image/png" href="mainFavicon/favicon.png" sizes="48x48" />
+<link rel="icon" type="image/png" href="mainFavicon/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="mainFavicon/favicon-32x32.png" sizes="32x32" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Charlie Doern</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="152x152" href="icon-152x152.png">
+  <link rel="manifest" href="manifest.json" />
+ <link type="text/css" rel="stylesheet" href="//pubnub.github.io/eon/v/eon/0.0.9/eon.css" />
+</head>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+/* All Screen sizes */
+@media screen{
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color:#7EC0EE;
+  margin: 0;
+  padding: 0;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#site_title{
+  width:400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+#button{
+ text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #908C8C;
+}
+ol {
+margin-left: 25;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#content h1{
+  margin-bottom: 20px;
+}
+#content h2{
+  margin: 15px 0;
+}
+#content h3{
+  margin: 10px 0;
+}
+#content{
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#content p{
+  margin: 7.5px 0;
+}
+#content ul{
+  margin: 0 20px;
+}
+#footer{
+  text-align: center;
+  color:white;
+  margin-bottom: 20px;
+}
+#footer a{
+  color:white;
+}
+#container{
+  margin: 0 auto;
+}
+}
+/* Screen 1000px and larger */
+@media (min-width: 1000px){
+#container{
+  width:1000px;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+#container{
+  width:800px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+#container{
+  width:600px;
+}
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+#container{
+  width:400px;
+}
+}
+@media screen and (max-width: 400px){
+#container{
+  width:100%;
+}
+}
+</style>
+</head>
 <body>
+<h1 id="site_title">Charlie Doern Homepage<br> 
+<div id = "site_title">
+	<style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/charliedoern"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
+	</div>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+</h1>
+<br>
+<div id="container">
+	<ul>
+<li><a href="https://chrome.google.com/webstore/detail/serenity-productivity-tim/bjekgjogipjcboohmkgebcfopdblapmg">Serenity</a></li>
+<li><a href="https://www.reddit.com/r/takecareofourplants/">Take Care of our Plants</a></li>
+<li><a href="https://github.com/cdoern">Github profile</a></li>
+</ul>
+<br>
+  <div id="content">
+    <h1>About me</h1>
+	<p> I am a Computer Science Major at the College of the Holy Cross. I am primarily a JS developer with experience in Java, C++, and Python. I like to make web applications to help others and/or make their life a little more fun! My two biggest and most prominent projects are Serenity, a google chrome extension, and Take Care of our Plants, a reddit community. Both of these projects are linked above. </p>
+    <p> I have also linked my github page which contains code from all of my projects. The code for serenity can be found in the repository named serenity and the Take Care of our Plants code can be found in the takecareofourplants repository. This repository is much more extensive, containing a standalone garden monitoring application and instructions on how to set the whole project up! </p>
+	  <h2> Contact me </h2>
+	  <p> If you have a general inqiury about a possible project collaboration or business propositions you can reach me at <a href="mailto:cbddoern@gmail.com">cbddoern@gmail.com</a>.
+	  <p> If you want to connect with me socially or otherwise, use the social media links below! </p>
+	
+  </div>
+	<a href="https://www.facebook.com/profile.php?id=100009557329203" class = "fa fa-facebook" target= "_blank"></a>
+	<a href="https://www.linkedin.com/in/charles-doern-3470221a1/" class = "fa fa-linkedin" target= "_blank"></a>
+	<a href="https://twitter.com/CharlieDoern" class = "fa fa-twitter" target= "_blank"></a>
+	
+</div>
 </body>
 </html>
