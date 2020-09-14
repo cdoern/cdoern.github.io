@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://www.cdoern.com/bytesized/byte.rss" rel="self" type="application/rss+xml" />
+    <title>Byte Sized</title>
+    <link>https://www.cdoern.com/</link>
+    <language>en-us</language>
+    <itunes:subtitle>Weekly Tech and Programming talk with Charlie Doern</itunes:subtitle>
+    <itunes:author>Charlie Doern</itunes:author>
+    <itunes:summary>This show covers all topics that are relevant in the tech and programming world. Byte Sized serves both as a news show and an informational programming show. Your host, Charlie Doern aims to delve into weekly tech news from big companies as well as programming news around the world and in his own life.</itunes:summary>
+    <description>This show covers all topics that are relevant in the tech and programming world. Byte Sized serves both as a news show and an informational programming show. Your host, Charlie Doern aims to delve into weekly tech news from big companies as well as programming news around the world and in his own life.</description>
+    <itunes:owner>
+        <itunes:name>Charlie Doern</itunes:name>
+        <itunes:email>cbdoern@icloud.com</itunes:email>
+    </itunes:owner>
+    <image>
+     <url>https://www.cdoern.com/bytesized/ByteSized.png</url>
+     <title>Byte Sized</title>
+     <link>https://www.cdoern.com/bytesized/ByteSized.png</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://www.cdoern.com/bytesized/ByteSized.png"/>
+    <itunes:category text="Technology"></itunes:category>
+
+<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+    <item>
+        <title>3 Bytes for Apple, Microsoft, and Nvidia.</title>
+        <itunes:summary>In this first episode we will discuss what the show is, who I am, and what's going on with Apple, Microsoft, and Nvidia.</itunes:summary>
+        <description>In this first episode we will discuss what the show is, who I am, and what's going on with Apple, Microsoft, and Nvidia.</description>
+        <link>https://cdoern.com/bytesized/Ep1</link>
+        <enclosure url="https://www.cdoern.com/bytesized/Ep1/ByteSizedEp1small.mp3" type="audio/mpeg" length="40893114"></enclosure>
+        <pubDate>Sat, 12 Sep 2020 15:00:00 +0000</pubDate>
+        <itunes:author>Charlie Doern</itunes:author>
+        <itunes:duration>00:35:23</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+        <guid>https://www.cdoern.com/bytesized/Ep1</guid>
+    </item> 
+<!--END REPEAT-->
+  </channel>
+</rss>
