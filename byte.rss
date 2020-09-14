@@ -3,7 +3,7 @@
   <channel>
     <atom:link href="https://cdoern.github.io/byte.rss" rel="self" type="application/rss+xml" />
     <title>Byte Sized</title>
-    <link>https://www.cdoern.com/</link>
+    <link>https://cdoern.com/</link>
     <language>en-us</language>
     <itunes:subtitle>Weekly Tech and Programming talk with Charlie Doern</itunes:subtitle>
     <itunes:author>Charlie Doern</itunes:author>
@@ -28,12 +28,12 @@
         <itunes:summary>In this first episode we will discuss what the show is, who I am, and what's going on with Apple, Microsoft, and Nvidia.</itunes:summary>
         <description>In this first episode we will discuss what the show is, who I am, and what's going on with Apple, Microsoft, and Nvidia.</description>
         <link>https://cdoern.com/bytesized/Ep1</link>
-        <enclosure url="https://www.cdoern.com/bytesized/Ep1/ByteSizedEp1.wav" type="audio/mpeg" length="365736000"></enclosure>
+        <enclosure url="https://cdoern.com/bytesized/Ep1/ByteSizedEp1.wav" type="audio/mpeg" length="365736000"></enclosure>
         <pubDate>Sat, 12 Sep 2020 15:00:00 +0000</pubDate>
         <itunes:author>Charlie Doern</itunes:author>
         <itunes:duration>00:35:23</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
-        <guid>https://www.cdoern.com/bytesized/Ep1</guid>
+        <guid>https://cdoern.com/bytesized/Ep1</guid>
     </item> 
 <!--END REPEAT-->
   </channel>
